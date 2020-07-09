@@ -169,6 +169,19 @@
   
     <li class="md-tabs__item">
       
+        <a href="/archive/2020-05-27/" class="md-tabs__link">
+          過去のデータ
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
         <a href="/student/gakuwari/" class="md-tabs__link">
           学割
         </a>
@@ -236,13 +249,127 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
+      過去のデータ
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="過去のデータ" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        過去のデータ
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/archive/2020-05-27/" title="2020 年 5 月" class="md-nav__link">
+      2020 年 5 月
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/archive/2020-04-26/" title="2020 年 4 月" class="md-nav__link">
+      2020 年 4 月
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/archive/2020-02-04/" title="2020 年 2 月" class="md-nav__link">
+      2020 年 2 月
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/archive/2019-12-26/" title="2019 年 12 月" class="md-nav__link">
+      2019 年 12 月
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/archive/2019-11-07/" title="2019 年 11 月" class="md-nav__link">
+      2019 年 11 月
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/archive/2019-10-01/" title="2019 年 10 月" class="md-nav__link">
+      2019 年 10 月
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/archive/2019-09-20/" title="2019 年 9 月" class="md-nav__link">
+      2019 年 9 月
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
       学割
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="学割" data-md-level="1">
-      <label class="md-nav__title" for="nav-2">
+      <label class="md-nav__title" for="nav-3">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -329,7 +456,7 @@
       <script>
         app = initialize({
           base: "/",
-          features: ["tabs"],
+          features: ["instant", "tabs"],
           search: Object.assign({
             worker: "/assets/javascripts/worker/search.a68abb33.min.js"
           }, typeof search !== "undefined" && search)
